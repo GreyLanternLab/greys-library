@@ -1,5 +1,4 @@
-A Crime So Monstrous van E. Benjamin Skinner.
-Geschikt voor studie, OSINT/anti-trafficking context en copy-paste gebruik.
+A Crime So Monstrous by E. Benjamin Skinner.
 
 A Crime So Monstrous — General Summary
 
