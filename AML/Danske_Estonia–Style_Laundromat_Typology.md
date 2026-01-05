@@ -129,7 +129,7 @@ Typical movement features:
 flowchart LR
   A[Real-world origin <br/>corruption / crime / grey capital] --> B[Placement / Entry node<br/>Bank 1 or cash-to-bank channel]
   B --> C[Narrative wrapper<br/>loan / services / trade / investment]
-  C --> D[Shell entity account<br/>(e.g., UK LLP/LP + offshore owners)]
+  C --> D[Shell entity account <br/>(e.g., UK LLP/LP + offshore owners)]
   D --> E[Transit bank/branch<br/>high-throughput non-resident corridor]
   E --> F[Correspondent clearing<br/>USD/EUR via major banks]
   F --> G[Exit / Integration<br/>EU/UK accounts, assets, property, funds]
