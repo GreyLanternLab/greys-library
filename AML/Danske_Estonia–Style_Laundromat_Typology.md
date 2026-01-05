@@ -1,8 +1,7 @@
 # How Illicit Money Entered and Moved Through the Banking System (Danske Estonia–Style Laundromat Typology)
-*A forensic, copy/paste-able field note with Mermaid diagrams (for study/investigative understanding).*
 
-> **Scope & intent:** This document describes common **mechanisms** by which illicit or high-risk funds were **placed**, **layered**, and **integrated** through banks, using patterns widely associated with the Danske Estonia non-resident portfolio era.  
-> It is **not** a “how-to”. It focuses on **forensic understanding**, red flags, and investigative framing.
+This document describes common **mechanisms** by which illicit or high-risk funds were **placed**, **layered**, and **integrated** through banks, using patterns widely associated with the Danske Estonia non-resident portfolio era.  
+It is **not** a “how-to”. It focuses on **forensic understanding**, red flags, and investigative framing.
 
 ---
 
@@ -128,7 +127,7 @@ Typical movement features:
 
 ```mermaid
 flowchart LR
-  A[Real-world origin<br/>corruption / crime / grey capital] --> B[Placement / Entry node<br/>Bank 1 or cash-to-bank channel]
+  A[Real-world origin <br/>corruption / crime / grey capital] --> B[Placement / Entry node<br/>Bank 1 or cash-to-bank channel]
   B --> C[Narrative wrapper<br/>loan / services / trade / investment]
   C --> D[Shell entity account<br/>(e.g., UK LLP/LP + offshore owners)]
   D --> E[Transit bank/branch<br/>high-throughput non-resident corridor]
