@@ -15,6 +15,7 @@ This chapter examines how post-Soviet power struggles created a new class of wea
 
 ## 3. Queen of the Caribbees
 Bullough travels to Caribbean jurisdictions like St Kitts and Nevis, where island governments became architects of sovereignty-selling schemes such as investor citizenship programs, attracting the super-rich and corrupt alike. 
+
 ---
 
 ## 4. Sex, Lies and Offshore Vehicles
@@ -23,14 +24,17 @@ Exploring how shell companies, trusts, and nominee structures provide anonymity,
 
 ## 5. Mystery on Harley Street
 Bullough investigates the London property market as a primary storage for hidden wealth. Hedge funds, shell companies, and anonymous ownership have turned British real estate into a “warehouse” for Moneyland, with little regulation. 
+
 ---
 
 ## 6. Shell Games
 The chapter dives into the legal and institutional mechanics — how law firms and banks design ever-more complex corporate structures that deliberately hide beneficial owners and evade scrutiny. 
+
 ---
 
 ## 7. Cancer
 Bullough uses the metaphor of cancer to describe how kleptocratic finance metastasizes. Starting from individual theft, it spreads through global banking, property, and trust systems, undermining states’ fiscal capacities and accountability. 
+
 ---
 
 ## 8. Nasty as a Rattlesnake
@@ -40,14 +44,17 @@ This chapter highlights the opposition to Moneyland enforcement — regulators, 
 
 ## 9. The Man Who Sells Passports
 Bullough focuses on citizenship-by-investment schemes and how wealthy individuals with blood on their hands can buy the privileges of Western passports, enabling mobility and legal protection. 
+
 ---
 
 ## 10. “Diplomatic Immunity!”
 Here the narrative explores diplomatic avenues used to shield assets and people — from embassies to political influence — showing how legal immunities become financial loopholes. 
+
 ---
 
 ## 11. Un-write-about-able
 This chapter addresses the silencing effect of Moneyland’s elite: legal pressure, litigation threats, and media capture that protect wealthy interests from exposure. 
+
 ---
 
 ## 12. Dark Matter
@@ -62,18 +69,22 @@ In this more dramatic chapter title, Bullough discusses extreme cases of corrupt
 
 ## 14. Say Yes to the Money
 The focus here is on incentives: why political and business elites choose complicity. Governments subsidize secrecy and offshore growth because of the capital inflows benefiting domestic sectors. 
+
 ---
 
 ## 15. High-End Property
 A deeper look at how wealthy individuals invest in global real estate — from London to Manhattan — driving price inflation and concentrating wealth among invisible owners, displacing local residents. 
+
 ---
 
 ## 16. Plutos Like to Hang Out Together
 Bullough examines elite networks and social ecosystems — private clubs, investment forums, and social registers — where wealth accumulates and reinforces power across borders. 
+
 ---
 
 ## 17. Breaking Switzerland
 This chapter recounts efforts to pierce Swiss banking secrecy, including leaks, scandals, and policy shifts that challenged traditional safe havens, though often with limited effectiveness. 
+
 ---
 
 ## 18. Tax Haven USA
