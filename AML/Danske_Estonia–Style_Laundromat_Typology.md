@@ -127,19 +127,62 @@ Typical movement features:
 
 ```mermaid
 flowchart LR
-  A[Real-world origin <br/>corruption / crime / grey capital] --> B[Placement / Entry node<br/>Bank 1 or cash-to-bank channel]
-  B --> C[Narrative wrapper<br/>loan / services / trade / investment]
-  C --> D[Shell entity account <br/>(e.g., UK LLP/LP + offshore owners)]
-  D --> E[Transit bank/branch<br/>high-throughput non-resident corridor]
-  E --> F[Correspondent clearing<br/>USD/EUR via major banks]
-  F --> G[Exit / Integration<br/>EU/UK accounts, assets, property, funds]
-  
-  subgraph "Obfuscation techniques"
-    X1[Ownership opacity<br/>nominees, trusts, offshore]
-    X2[Transaction layering<br/>splitting, routing, circularity]
-    X3[Semantic laundering<br/>purpose text + paperwork]
+  A["Real-world origin\n(corruption, crime, grey capital)"] --> B["Placement / Entry node\n(Bank 1 or cash-to-bank channel)"]
+  B --> C["Narrative wrapper\n(loan, services, trade, investment)"]
+  C --> D["Shell entity account\nUK LLP or LP with offshore owners"]
+  D --> E["Transit bank or branch\nhigh-throughput non-resident corridor"]
+  E --> F["Correspondent clearing\nUSD or EUR"]
+  F --> G["Exit or Integration\nEU or UK accounts, assets, funds"]
+
+  subgraph Obfuscation_Techniques
+    X1["Ownership opacity\nnominees, trusts, offshore"]
+    X2["Transaction layering\nsplitting, routing, circularity"]
+    X3["Semantic laundering\npurpose text and paperwork"]
   end
 
-  X1 -. supports .-> D
-  X2 -. supports .-> E
-  X3 -. supports .-> C
+  X1 -.-> D
+  X2 -.-> E
+  X3 -.-> C
+```
+
+
+```mermaid
+sequenceDiagram
+  autonumber
+  participant S as Source
+  participant B1 as Bank 1 (weak or captured)
+  participant E as Entity (shell or controlled)
+  participant B2 as Bank 2 or Transit hub
+  participant C as Correspondent clearing
+  participant X as Exit node
+
+  S->>B1: Funds arrive
+  Note over B1: Minimal challenge or overridden compliance
+  B1->>E: Account credited
+  E->>B1: Narrative documents provided
+  B1->>B2: SWIFT transfer with purpose "loan disbursement"
+  Note over B2: Sender is a regulated bank
+  B2->>C: Payment cleared
+  C->>X: Funds delivered
+
+```
+
+```mermaid
+flowchart TB
+  I["Importer"] -->|Pays invoice| BI["Importer Bank"]
+  BI -->|SWIFT: import settlement| BE["Receiving or Transit Bank"]
+  BE --> E["Exporter or Shell Exporter"]
+
+  subgraph Invoice_Manipulation
+    P1["Over-invoicing"]
+    P2["Under-invoicing"]
+    P3["Phantom goods"]
+    P4["Misdescribed goods"]
+  end
+
+  P1 -.-> I
+  P2 -.-> I
+  P3 -.-> I
+  P4 -.-> I
+
+```
