@@ -1,7 +1,7 @@
 # Golden Mountains; An exploratory investigation into Nigerian 419 fraud: underlying perpetrator characteristics and approach (Schoenmakers, De Vries Robbé & Van Wijk, 2009)
 
 ## -An OSINT-proof extended summary-
-> Source: *Gouden bergen. Een verkennend onderzoek naar Nigeriaanse 419-fraude: achtergronden, daderkenmerken en aanpak* (Police & Science / Bureau Beke, “Politiewetenschap 48”, 2009). :contentReference[oaicite:0]{index=0}
+> Source: *Gouden bergen. Een verkennend onderzoek naar Nigeriaanse 419-fraude: achtergronden, daderkenmerken en aanpak* (Police & Science / Bureau Beke, “Politiewetenschap 48”, 2009). 
 
 ---
 
